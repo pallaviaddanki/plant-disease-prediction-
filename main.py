@@ -48,18 +48,18 @@ if app_mode == "Home":
     ### Get Started
     Click on the **Disease Recognition** page in the sidebar to upload an image and experience the power of our Plant Disease Recognition System!
 
-    ### About Us
-    Learn more about the project, our team, and our goals on the **About** page.
+    
     """)
 
 # About Project
 elif app_mode == "About":
     st.header("About")
     st.markdown("""
-                #### About Dataset
-                This dataset is recreated using offline augmentation from the original dataset. The original dataset can be found on this GitHub repo.
-                This dataset consists of about 87K RGB images of healthy and diseased crop leaves categorized into 38 different classes. The total dataset is divided into an 80/20 ratio for training and validation, preserving the directory structure.
-                A new directory containing 33 test images is created later for prediction purposes.
+                #### Welcome to the Plant Disease Recognition System
+                 An AI-powered tool designed to assist farmers, researchers, and agricultural professionals in detecting plant diseases efficiently. Our system leverages deep learning to analyze plant images and provide accurate disease identification within seconds.
+                  Preventing crop losses
+                  Reducing pesticide misuse
+                 Ensuring sustainable agriculture
 
                 #### Content
                 - **Train**: 70,295 images
